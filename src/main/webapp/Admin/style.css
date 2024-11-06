@@ -1,0 +1,35 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+
+/* Navbar.jsp */
+.header_div{
+	height:10px;
+	border-radius: 0px 0px 40px 40px;
+	width:100%;
+	float: left;
+}
+.narbar_back_color{
+	background-color: #183153;
+}
+
+
+/* index.jsp */  
+.back_img{
+	height:60vh;
+	width:100%;
+	color:red;
+	background: url("../img/b1.jpg");
+	background-size:100% 100%;
+	
+}
+
+
+
+
+
+
+
+
+

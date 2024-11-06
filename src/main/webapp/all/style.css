@@ -1,0 +1,53 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+
+/* Navbar.jsp */
+.header_div{
+	height:10px;
+	border-radius: 0px 0px 40px 40px;
+	width:100%;
+	float: left;
+}
+.narbar_back_color{
+	background-color: #183153;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    padding-bottom:3px ;
+  }
+  li:after{
+    content: '';
+    margin: auto;
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: transparent;
+    /* transition: width 0.5s ease,background-color 0.5s ease; */
+    transition: all 0.5s ease;
+  }
+  li:hover:after{
+    width: 90%;
+    margin-top: -5px;
+    background-color: orange;
+  }
+
+/* index.jsp */  
+.back_img{
+	height:60vh;
+	width:100%;
+	color:red;
+	background: url("../img/b1.jpg");
+	background-size:100% 100%;
+	
+}
+
+
+
+
+
+
